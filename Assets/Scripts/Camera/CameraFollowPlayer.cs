@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CameraFollowPlayer : MonoBehaviour
 {
+    
     [SerializeField] private float lerpMultiplier;
     private Vector3 _offset;
     private GameObject _player;
@@ -10,7 +11,6 @@ public class CameraFollowPlayer : MonoBehaviour
     {
         _player = GetComponent<GameObject>();
         _player = GameObject.Find("Player");
-
         _offset = transform.position - _player.transform.position;
     }
     
