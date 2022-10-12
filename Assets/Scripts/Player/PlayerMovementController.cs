@@ -10,7 +10,7 @@ public class PlayerMovementController : MonoBehaviour
     private Vector3 _mousePoint;
     private bool _iscolliderNotNull;
 
-    /*private void Start()
+    private void Start()
     {
         _iscolliderNotNull = _raycastHit.collider != null;
         _cam = GameObject.Find("Main Camera").GetComponent<Camera>();
@@ -38,5 +38,5 @@ public class PlayerMovementController : MonoBehaviour
             transform.position = Vector3.MoveTowards(transform.position, new Vector3(_raycastHit.point.x, transform.position.y, _raycastHit.point.z), Time.deltaTime * speed);
             transform.LookAt(new Vector3(_raycastHit.point.x, transform.position.y, _raycastHit.point.z));
         }
-    }*/
+    }
 }
