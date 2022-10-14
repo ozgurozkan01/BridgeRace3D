@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class RivalMovementController : MonoBehaviour
 {
-    /*public static List<GameObject> greenBlockList;
+    public static List<GameObject> greenBlockList;
     public static List<GameObject> blueBlockList;
     [SerializeField] private float speed;
     private Vector3 _movementDirection;
@@ -86,5 +86,5 @@ public class RivalMovementController : MonoBehaviour
         transform.LookAt(new Vector3(target.transform.position.x,
             transform.position.y, 
             target.transform.position.z));
-    }*/
+    }
 }
