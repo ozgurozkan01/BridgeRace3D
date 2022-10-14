@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RivalBlockStackingController : MonoBehaviour
 {
-    /*public static List<GameObject> _greenBlockList;
+    public static List<GameObject> _greenBlockList;
     public static List<GameObject> _blueBlockList;
     [SerializeField] private Transform firstBlockPos;
     private float _blockHeightFromGround;
@@ -41,5 +41,5 @@ public class RivalBlockStackingController : MonoBehaviour
             firstBlockPos.position.z);
         block.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
         _blockHeightFromGround += .41f;
-    }*/
+    }
 }
