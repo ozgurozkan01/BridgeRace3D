@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BridgeCreatorController : MonoBehaviour
-{/*
+{
     [SerializeField] private List<Transform> bridgePartCollisions;
     
     private void Awake()
@@ -64,5 +64,5 @@ public class BridgeCreatorController : MonoBehaviour
                 bridgeCol.gameObject.GetComponent<Collider>().isTrigger = true;
             }
         }
-    }*/
+    }
 }
