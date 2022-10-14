@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BlockCreatorController : MonoBehaviour
 {
-    /*[SerializeField] private GameObject greenBlockPrefab;
+    [SerializeField] private GameObject greenBlockPrefab;
     [SerializeField] private GameObject blueBlockPrefab;
     [SerializeField] private GameObject redBlockPrefab;
 
@@ -52,5 +52,5 @@ public class BlockCreatorController : MonoBehaviour
             GameObject greenBlock = Instantiate(greenBlockPrefab, blockPos, transform.rotation);
             RivalMovementController.greenBlockList.Add(greenBlock);
         }
-    }*/
+    }
 }
